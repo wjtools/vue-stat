@@ -35,7 +35,7 @@ export default function install (Vue, options) {
 
   // insert u-web statistics script
   const script = document.createElement('script')
-  const site = ptions.site || 'https://hm.baidu.com/hm.js'
+  const site = options.site || 'https://hm.baidu.com/hm.js'
   const isBaidu = site.indexOf('baidu.com') > -1
   const src = isBaidu ? `${site}?${siteId}` : `${site}?id=${siteId}&web_id=${siteId}`
   script.src = options.src || src
