@@ -15,7 +15,7 @@ import stat from 'vue-stat'
 
 使用插件
 ```javascript
-Vue.use(stat,'YOUR_SITEID')
+Vue.use(stat, 'YOUR_SITEID')
 ```
 
 通过 options 参数进行更多设置
