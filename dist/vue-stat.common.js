@@ -1,5 +1,5 @@
 /*!
- * vue-stat v0.0.1
+ * vue-stat v0.0.3
  * (c) 2018 steven
  * Released under the MIT License.
  */
@@ -297,7 +297,7 @@ function install (Vue, options) {
 
   // insert u-web statistics script
   var script = document.createElement('script');
-  var site = ptions.site || 'https://hm.baidu.com/hm.js';
+  var site = options.site || 'https://hm.baidu.com/hm.js';
   var isBaidu = site.indexOf('baidu.com') > -1;
   var src = isBaidu ? (site + "?" + siteId) : (site + "?id=" + siteId + "&web_id=" + siteId);
   script.src = options.src || src;

@@ -1,6 +1,6 @@
 {
   "name": "vue-stat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A vuejs plugin for statistics",
   "author": "steven",
   "main": "dist/vue-stat.common.js",
