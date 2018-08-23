@@ -71,7 +71,7 @@ this.$stat.trackEvent(category, action[, label, value, nodeid])
 | category | 是 | string | 表示事件发生在谁身上，如“视频”、“小说”、“轮显层”等等。 |
 | action | 是 | string | 表示访客跟元素交互的行为动作，如"播放"、"收藏"、"翻层"等等。|
 | label | 否 | string | 用于更详细的描述事件，如具体是哪个视频，哪部小说。|
-| value | 否 | int | 用于填写打分型事件的分值，加载时间型事件的时长，订单型事件的价格。**详情请查看官方文档** |
+| value | 否 | int | 用于填写打分型事件的分值，加载时间型事件的时长，订单型事件的价格。**详情见官方文档** |
 | nodeid | 否 | string | 填写事件元素的 div 元素 id。请填写 class id，暂不支持 name。**！！！仅友盟支持** |
 
 ### setCustomVar
@@ -238,3 +238,9 @@ stat.trackEvent = (action, category = 'default') => {
 
 Vue.use(stat,'YOUR_SITEID')
 ```
+
+## 参考项目
+
+[vue-uweb](https://github.com/raychenfj/vue-uweb)
+
+[vue-ba](https://github.com/minlingchao1/vue-ba)
