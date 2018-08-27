@@ -1,5 +1,5 @@
 # vue-stat
-[![Build Status](https://travis-ci.org/wjtools/vue-stat.svg?branch=master)](https://travis-ci.org/wjtools/vue-stat)
+<!-- [![Build Status](https://travis-ci.org/wjtools/vue-stat.svg?branch=master)](https://travis-ci.org/wjtools/vue-stat) -->
 > vuejs 统计埋点插件，目前可适用于友盟和百度统计
 
 ## 安装
@@ -28,10 +28,10 @@ Vue.use(stat, options)
 | 参数 | 必输 | 默认 | 说明 | 备注 |
 |-----|------|-----|-----|------|
 | siteId | 是 | | 绑定要接受 API 请求的统计代码 siteid| |
-| site | 否 | | 指定统计脚本的链接地址| |
+| site | 否 | https://hm.baidu.com/hm.js | 指定统计脚本的链接地址| |
 | debug | 否 | false | 调试模式下将在控制台中输出调用接口时传递的参数 | **请不要在生产环境中使用，避免造成安全隐患** |
 | autoPageview | 否 | true | 是否开启自动统计 PV | |
-| src | 否 | https://hm.baidu.com/hm.js?SITEID | 指定统计脚本标签的 src 属性 | **设置此项，则 siteId 和 site 设置无效** |
+| src | 否 | https://hm.baidu.com/hm.js?SITEID | 指定统计脚本标签的 src 属性 | **此设置会取代 siteId 和 site** |
 
 ## API
 
